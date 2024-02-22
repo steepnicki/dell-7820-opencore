@@ -9,9 +9,9 @@
 
 EFI dir with OpenCore v0.9.7 (`REL-097-2023-12-11`)
 
-This setup has been in daily use (coding etc.) since Nov 2023, and it's been working well. I haven't experienced any major issues thus far.
+This setup has been in daily use (coding etc.) since Nov 2023 and has worked well. I haven't experienced any major issues thus far.
 
-- Sleep works
+- Sleep works (If you happen to experience issues with sleep, please turn off the Bluetooth before putting the computer to sleep)
 - WiFi + Bluetooth works (`Intel AX211` I believe)
 - FaceTime + iMessage works (*please update the MLB, Serial Number etc. following OC [instructions here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html). SN & MLB found in the config.plist in this repo are only placeholders (though they are valid and should let you boot), so you MUST change them to avoid issues with iCloud/FaceTime/iMessage*).
 
@@ -43,7 +43,7 @@ This setup has been in daily use (coding etc.) since Nov 2023, and it's been wor
 - [**SMCSuperIO**](https://github.com/acidanthera/VirtualSMC) - `v1.3.2`
 - [**USBMap**](https://github.com/corpnewt/USBMap) - `v1.0` - self-explanatory really, USB map is required since Big Sur 11.3
 - [**VirtualSMC**](https://github.com/acidanthera/VirtualSMC) - `v1.3.2`
-- [**WhateverGreen**](https://github.com/acidanthera/WhateverGreen) - `v1.6.6` - GPU patches, pretty much essential to enable the proper GPU support without unnecessary faff. You can try applying the [PowerPlay table patches](https://github.com/5T33Z0/OC-Little-Translated/blob/main/11_Graphics/GPU/AMD_Radeon_Tweaks/Polaris_PowerPlay_Tables.md) and remove this kext, but while I did notice a drop in GPU power usage (below 100W) and temps, my secondary display developed a flickering issue and occasional black screen. I decided to live with higher GPU power usage (around 130W most of the time) rather than fight with flickering screen and/or incorrect refresh rates. Your mileage may vary.
+- [**WhateverGreen**](https://github.com/acidanthera/WhateverGreen) - `v1.6.6` - GPU patches; pretty much essential to enable the proper GPU support without unnecessary faff. You can try applying the [PowerPlay table patches](https://github.com/5T33Z0/OC-Little-Translated/blob/main/11_Graphics/GPU/AMD_Radeon_Tweaks/Polaris_PowerPlay_Tables.md) and remove this kext, but while I did notice a drop in GPU power usage (below 100W) and temps, my secondary display developed a flickering issue and occasional black screen. I decided to live with higher GPU power usage (around 130W most of the time) rather than fight with flickering screens and/or incorrect refresh rates. Your mileage may vary.
 
 ****
 
@@ -57,7 +57,7 @@ If you are using a non-Intel WiFi adapter (*chipsets supported by itlwm can be f
 - **CPU**: `Intel Gold 6132`
 - **RAM**: `96GB 2400 MHz`
 - **GPU**: `SAPPHIRE Nitro+ RX 580 8GB`
-- **SSD**: `Corsair Force MP510 960GB NVME`
+- **SSD**: `SABRENT ROCKET NVMe4 1TB`
 - **NVME ADAPTER**: `SABRENT M.2 SSD NVMe to PCIe Adapter (Amazon)`
 - **DISPLAYS**: `1x LG 27GP95R 4K + 1x Dell P2721Q 4K`
 - **WIFI/BLUETOOTH**: `Ubit AX211 PCI-E Adapter (Amazon)`
