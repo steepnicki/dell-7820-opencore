@@ -11,7 +11,7 @@ EFI dir with OpenCore v0.9.7 (`REL-097-2023-12-11`)
 
 This setup has been in daily use (coding etc.) since Nov 2023 and has worked well. I haven't experienced any major issues thus far.
 
-- Sleep works (If you happen to experience issues with sleep, please turn off the Bluetooth before and try again)
+- Sleep works (If you happen to experience issues with sleep, please turn off the Bluetooth and try again)
 - WiFi + Bluetooth works (`Intel AX211` I believe)
 - FaceTime + iMessage works (*please update the MLB, Serial Number etc. following OC [instructions here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html). SN & MLB found in the config.plist in this repo are only placeholders (though they are valid and should let you boot), so you MUST change them to avoid issues with iCloud/FaceTime/iMessage*).
 
