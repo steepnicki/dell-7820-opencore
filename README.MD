@@ -1,13 +1,13 @@
 # Dell Precision 7820 - OpenCore - Ventura
 
-![OpenCore Version - 0.9.7](https://img.shields.io/badge/OpenCore-0.9.7-30bcd5)
+![OpenCore Version - 0.9.9](https://img.shields.io/badge/OpenCore-0.9.9-30bcd5)
 ![SMBIOS - MacPro7,1](https://img.shields.io/badge/SMBIOS-MacPro7,1-e0e1e3)
-![macOS Version - Ventura 13.6.3](https://img.shields.io/badge/macOS-Ventura_13.6.3-ed690c)
-![Updated on - 23 January 2024](https://img.shields.io/badge/Updated_on-23/01/2024-228B22)
+![macOS Version - Ventura 13.6.5](https://img.shields.io/badge/macOS-Ventura_13.6.5-ed690c)
+![Updated on - 13 March 2024](https://img.shields.io/badge/Updated_on-23/01/2024-228B22)
 
 ****
 
-EFI dir with OpenCore v0.9.7 (`REL-097-2023-12-11`)
+EFI dir with OpenCore v0.9.9 (`REL-099-2024-03-11`)
 
 This setup has been in daily use (coding etc.) since Nov 2023 and has worked well. I haven't experienced any major issues thus far.
 
@@ -24,14 +24,14 @@ This setup has been in daily use (coding etc.) since Nov 2023 and has worked wel
 **SSDTs**
 - [**SSDT-EC-USBX-DESKTOP**](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml)
 - [**SSDT-PLUG-DRTNIA**](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PLUG-DRTNIA.aml)
-- **SSDT-RTC0** - I actually cannot remember where I got it from. Official Dortania equivalent might be the [SSDT-RTC0-RANGE-HEDT](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-RTC0-RANGE-HEDT.aml).
+- [**SSDT-RTC0-RANGE-HEDT**](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-RTC0-RANGE-HEDT.aml)
 
 **Kexts**
-- [**AirportItlwm**](https://github.com/OpenIntelWireless/itlwm) - `v2.2.0` - WiFi AX211
-- [**AppleALC**](https://github.com/acidanthera/AppleALC) - `v1.8.8` - Sound
+- [**AirportItlwm**](https://github.com/OpenIntelWireless/itlwm) - `v2.3.0-alpha` - WiFi AX211
+- [**AppleALC**](https://github.com/acidanthera/AppleALC) - `v1.8.9` - Sound
 - [**BlueToolFixup**](https://github.com/acidanthera/BrcmPatchRAM) - `v2.6.8` - Bluetooth
-- [**IntelBluetoothFirmware**](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) - `v2.3.0` - Bluetooth
-- [**IntelBTPatcher**](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) - `v2.3.0` - Bluetooth
+- [**IntelBluetoothFirmware**](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) - `v2.4.0` - Bluetooth
+- [**IntelBTPatcher**](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) - `v2.4.0` - Bluetooth
 - [**IntelMausi**](https://github.com/acidanthera/IntelMausi) - `v1.0.7` - NIC
 - [**Lilu**](https://github.com/acidanthera/Lilu) - `v1.6.7`
 - [**NVMeFix**](https://github.com/acidanthera/NVMeFix) - `v1.1.1` - SSD power management (may not be needed, I left it as it isn't causing any issues)
