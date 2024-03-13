@@ -3,7 +3,7 @@
 ![OpenCore Version - 0.9.9](https://img.shields.io/badge/OpenCore-0.9.9-30bcd5)
 ![SMBIOS - MacPro7,1](https://img.shields.io/badge/SMBIOS-MacPro7,1-e0e1e3)
 ![macOS Version - Ventura 13.6.5](https://img.shields.io/badge/macOS-Ventura_13.6.5-ed690c)
-![Updated on - 13 March 2024](https://img.shields.io/badge/Updated_on-23/01/2024-228B22)
+![Updated on - 23 March 2024](https://img.shields.io/badge/Updated_on-23/03/2024-228B22)
 
 ****
 
